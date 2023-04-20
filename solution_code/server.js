@@ -4,7 +4,6 @@ const express = require('express');
 const morgan = require('morgan'); 
 const methodOverride = require('method-override');
 const app = express();
-const session = require('express-session');
 const MongoStore = require('connect-mongo');
 
 
